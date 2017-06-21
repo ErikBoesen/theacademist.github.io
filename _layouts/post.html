@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
+<img class="post-image" src="/assets/img/post/{{ page.image }}">
 <article class="post">
-    <img src="/assets/img/post/{{ page.image }}">
     <h1>{{ page.title | escape }}</h1>
     <p class="post-meta">
       <time datetime="{{ page.date | date_to_xmlschema }}">
@@ -13,7 +13,7 @@ layout: default
         - <span>{{ page.author }}</span>
       {% endif %}</p>
 
-  <div class="post-content" itemprop="articleBody">
+  <div class="post-content">
     {{ content }}
   </div>
 
