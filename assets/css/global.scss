@@ -1,0 +1,124 @@
+---
+---
+@font-face {
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cinzel Regular'), local('Cinzel-Regular'), url(https://fonts.gstatic.com/s/cinzel/v5/zOdksD_UUTk1LJF9z4tURA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+@font-face {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lora Regular'), local('Lora-Regular'), url(https://fonts.gstatic.com/s/lora/v10/4vqKRIwnQQGUQQh-PnvdMA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lora', monospace;
+}
+h1, h2, h3, h4, header {
+    font-family: 'Cinzel', serif;
+    font-weight: 100;
+}
+a {
+    color: inherit;
+}
+header {
+    h2, h3 {
+    	text-align: center;
+    	text-transform: uppercase;
+    }
+    h2 {
+        margin-top: 30px;
+    	font-size: 100px;
+        line-height: 1;
+    }
+    h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        ul {
+            margin: 0 10px;
+            padding: 10px 20px;
+            border-top: solid 1px #333;
+            li {
+                display: inline-block;
+                a {
+                    padding: 10px 7px;
+                }
+            }
+        }
+    }
+}
+section {
+    margin: 10px auto 30px;
+    max-width: 15in;
+    clear: both;
+}
+.post-list {
+    list-style-type: none;
+    color: white;
+    text-align: center;
+    li {
+        background-size: cover;
+        width: 5in;
+        height: 4in;
+        margin-right: -4px;
+        display: inline-block;
+        vertical-align: top;
+        text-align: left;
+        a {
+            display: block;
+            text-decoration: none;
+            padding: 20px;
+            width: 5in;
+            height: 4in;
+            transition: .5s;
+            &:hover {
+                background-color: rgba(0, 0, 0, 0.2);
+                transition: .4s;
+            }
+        }
+    }
+}
+h4 {
+    font-size: 40px;
+    a {
+        text-decoration: none;
+    }
+}
+article {
+    margin-top: 30px;
+    img {
+        width: 100%;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    p {
+        line-height: 1.5;
+        margin: 10px 0;
+        font-size: 18px;
+    }
+}
+
+footer {
+    background: black;
+    color: #666;
+    padding: 30px;
+    p {
+        text-align: center;
+    }
+}
