@@ -62,10 +62,11 @@ header {
         }
     }
 }
-section, article {
+main, article {
     margin: 10px auto 30px;
     max-width: 10in;
     clear: both;
+    min-height: 80vh;
 }
 .post-list {
     list-style-type: none;
