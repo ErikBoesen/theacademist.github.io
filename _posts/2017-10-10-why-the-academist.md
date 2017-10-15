@@ -5,6 +5,7 @@ image: why-the-academist.jpg
 date:   2017-10-10 09:00:00 -0400
 categories: opinion
 author: Erik Boesen
+description: "The media is suffering from a lack of youth participation. How The Academist plans to combat this deficit."
 ---
 Quoth Jim Morrison, the lead singer of The Doors; "whoever controls the media, controls the mind."
 
