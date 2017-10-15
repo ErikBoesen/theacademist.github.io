@@ -54,22 +54,29 @@ header {
 
         ul {
             margin: 0 10px;
-            padding: 10px 20px;
+            padding: 10px 0;
             border-top: solid 1px #333;
             li {
                 display: inline-block;
                 a {
                     padding: 10px 7px;
                 }
+                &:last-child a {
+                    background: #333;
+                    color: white;
+                    text-decoration: none;
+                }
             }
         }
     }
+}
+main {
+    min-height: 80vh;
 }
 main, article {
     margin: 10px auto 30px;
     max-width: 10in;
     clear: both;
-    min-height: 80vh;
 }
 .post-list {
     list-style-type: none;
@@ -107,6 +114,10 @@ h4 {
 .post-image {
     margin-top: 20px;
     width: 100%;
+}
+.post-meta {
+    color: #666;
+    text-transform: uppercase;
 }
 article {
     h1 {
