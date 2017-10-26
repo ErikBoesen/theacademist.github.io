@@ -94,9 +94,12 @@ main, article {
             display: block;
             text-decoration: none;
             padding: 20px;
-            width: 5in;
+            max-width: 100%;
             height: 4in;
             transition: .5s;
+            h4 {
+                width: 100%;
+            }
             &:hover {
                 background-color: rgba(0, 0, 0, 0.2);
                 transition: .4s;
@@ -137,4 +140,27 @@ footer {
     p {
         text-align: center;
     }
+}
+
+@media (max-width: 700px) {
+    header {
+        h2 {
+            font-size: 10vw;
+            margin-top: 15px;
+            padding-bottom: 5px;
+        }
+        h3 {
+            display: none;
+        }
+        nav {
+            display: none;
+        }
+    }
+}
+@media (max-width: 5in) {
+    .post-list li {
+        width: 100%;
+        margin: 0;
+    }
+
 }
