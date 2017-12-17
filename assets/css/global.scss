@@ -131,6 +131,22 @@ article {
         margin: 10px 0;
         font-size: 18px;
     }
+    .author {
+        background: #eee;
+        padding: 20px;
+        img {
+            display: inline-block;
+            width: 150px;
+            margin-right: 5px;
+        }
+        div {
+            display: inline-block;
+            vertical-align: top;
+        }
+        h3 {
+            margin: 0;
+        }
+    }
 }
 
 footer {

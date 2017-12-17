@@ -4,7 +4,7 @@ title:  "On 'Where are you from?'"
 image: where-are-you-from.jpg
 date:   2017-12-13 14:45:00 -0400
 categories: opinion
-author: Erik Boesen
+author: boesen-erik
 description: "Viewing this question as a tool of stereotyping is unfair to the genuinely curious."
 ---
 Recently I was referred to [this MTV episode](https://www.youtube.com/watch?v=igWYMo4z2OQ), a comedic short which advocates against asking the question "where are you from?" in certain contexts. While I'm sure the short was intended to positively influence discourse, I'm bothered by some of the implicit conclusions it endorses.

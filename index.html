@@ -9,7 +9,8 @@ image: "why-the-academist.jpg"
     <li style="background-image: url(/assets/img/post/small/{{ post.image }});">
         <a class="post-link" href="{{ post.url | relative_url }}">
             {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-            <span>{{ post.date | date: date_format }} - {{ post.author }}</span>
+            {% assign author = site.data.authors[post.author] %}
+            <span>{{ post.date | date: date_format }} - {{ author.name }}</span>
 
             <h4>
                 {{ post.title | escape }}

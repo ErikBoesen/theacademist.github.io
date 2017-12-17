@@ -4,7 +4,7 @@ title:  "On The Mainstream Media"
 image: msm.jpg
 date:   2017-11-3 10:00:00 -0400
 categories: opinion
-author: Colter Adams
+author: adams-colter
 description: "What's the answer to our media conundrum?"
 ---
 _This article was originally published in [The Lasso](http://www.gmhslasso.org/mainstream-media-coverage-today-thought-provoking-sensationalist/). It has been republished here with permission to expose it to a wider audience._

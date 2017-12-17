@@ -4,7 +4,7 @@ title:  "THAAD has no place in South Korea"
 image: thaad.jpg
 date:   2017-10-10 10:00:00 -0400
 categories: opinion
-author: Bella Hubble
+author: hubble-bella
 description: "Listen to the voices."
 ---
 Hundreds of protesters are swarmed by police in the rural South Korean town of Seongju. What used to be a peaceful town with many elderly residents is now a battleground for the anti-THAAD movement led by Seongju’s very own citizens. As the protesters chant in unison, waves of police officers try to suppress the frenzy; officers and protesters are entangled on a crowded dirt road, breaking windows and injuring others in the process. These intense demonstrations have been occurring since late 2016, accumulating more zeal as time goes on. From arrests to injuries to a protester setting himself on fire—eventually causing his own death— the movement is becoming more integrated in world—not just South Korea—politics by the day.

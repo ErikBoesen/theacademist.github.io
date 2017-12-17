@@ -1,23 +1,31 @@
 ---
 layout: default
 ---
+{% assign author = site.data.authors[page.author] %}
 <img class="post-image" src="/assets/img/post/{{ page.image }}">
 <article class="post">
     <h1>{{ page.title | escape }}</h1>
     <p class="post-meta">
-      <time datetime="{{ page.date | date_to_xmlschema }}">
+        <time datetime="{{ page.date | date_to_xmlschema }}">
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         {{ page.date | date: date_format }}
-      </time>
-      {% if page.author %}
-        - <span>{{ page.author }}</span>
-      {% endif %}</p>
+        </time>
+        - <span>{{ author.name }}</span>
+    </p>
 
-  <div class="post-content">
-    {{ content }}
-  </div>
+    <div class="post-content">
+        {{ content }}
+    </div>
 
-  {% if site.disqus.shortname %}
-    {% include disqus_comments.html %}
-  {% endif %}
+    <div class="author">
+        <img src="{% if author.img %}{{ author.img }}{% else %}/assets/img/author/placeholder.png{% endif %}">
+        <div>
+            <h3>{{ author.name }}</h3>
+            <p>{{ author.bio }}</p>
+        </div>
+    </div>
+
+    {% if site.disqus.shortname %}
+        {% include disqus_comments.html %}
+    {% endif %}
 </article>

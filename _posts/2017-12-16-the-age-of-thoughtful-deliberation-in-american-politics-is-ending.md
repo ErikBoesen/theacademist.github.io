@@ -5,7 +5,7 @@ image: mccain.jpg
 image_credit: WikiMedia Foundation
 date:   2017-12-16 17:00:00 -0400
 categories: opinion
-author: James Weichert
+author: weichert-james
 description: "Actions by our current Congress threaten legislative norms."
 ---
 _This article was originally published in [The Lasso](http://www.gmhslasso.org/age-thoughtful-deliberation-american-politics-ending/). It has been republished here with permission to expose it to a wider audience._
