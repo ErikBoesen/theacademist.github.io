@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "On 'Where are you from?'"
+title:  "On \"Where are you from?\""
 image: where-are-you-from.jpg
 date:   2017-12-13 14:45:00 -0400
 categories: opinion

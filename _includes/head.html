@@ -1,7 +1,11 @@
+{% if page.title %}
+<title>{{ page.title }} | The Academist</title>
+{% else %}
 <title>The Academist</title>
+{% endif %}
 <link rel="stylesheet" href="/assets/css/global.css">
 <meta name="description" content="{{ page.description }}">
-<meta name="twitter:card" content="summary" />
-<meta property="og:title" content="{{ page.title | escape }}" />
-<meta property="og:description" content="{{ page.description | escape }}" />
-<meta property="og:image" content="http://academist.press/assets/img/post/{{ page.image }}" />
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:title" content="{{ page.title | escape }}">
+<meta property="og:description" content="{{ page.description | escape }}">
+<meta property="og:image" content="http://academist.press/assets/img/post/{{ page.image }}">
