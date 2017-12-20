@@ -22,6 +22,16 @@ layout: default
         <div>
             <h3>{{ author.name }}</h3>
             <p>{{ author.bio }}</p>
+            {% if author.website %}
+                <a href="{{ author.website}}">Website</a>
+            {% endif %}
+            {% if author.twitter %}
+                <a href="https://twitter.com/{{ author.twitter}}">Twitter</a>
+            {% endif %}
+            {% if author.instagram %}
+                <a href="https://instagram.com/{{ author.instagram}}">Instagram</a>
+            {% endif %}
+
         </div>
     </div>
 
